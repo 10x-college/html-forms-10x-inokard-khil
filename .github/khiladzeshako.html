@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jovian Drift SOS</title> <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <iframe id="bg-frame" src="./styles/effect.html"></iframe>
+    <form action="#" method="post"></form>
+
+     <label for="pilot name">Pilot name</label>
+           <fieldset><legend>Pilot Credentials</legend>
+                <input type="text"
+            id="pilot name"
+            name="shakoo khiladze"
+            required
+            placeholder="Enter Name">
+             
+            <label for="access code">Access Code</label>
+            <input type="password"
+            id="access code"
+            name="access code"
+            required>
+
+            <label for="command email">Command Email</label>
+            <input type="email"
+            id="command email"
+            name="command emi=ail"
+            required>
+
+        </fieldset>
+
+        <fieldset><legend>Vessel Diagnostics</legend>
+        <label for="hull damage">Hull Damage:%</label>
+    <input type="number"
+    id="hull damage"
+    name="hull damage"
+    required>
+
+<label for="emergency level:">Emergency Level:</label>
+<select name="emergency level"
+ id="emergency level"
+ required>
+<option value="low">low</option>
+<option value="medium">medium</option>
+<option value="high">high</option></select>
+</fieldset>
+
+<fieldset><legend>Mission Log & Evidence</legend>
+<label for="sos message">SOS Message</label>
+<textarea name="sos message"
+ id="sos message"
+ required
+ rows="3"></textarea>
+</fieldset>
+    
+<div>
+    <input type="checkbox" 
+    id="quarantine"
+     name="checkbox"
+      required>
+      <label for="quarantine">i agree to quarantine protocols</label>
+</div>
+
+<button type="submit"> INITIATE TRANSMISSION</button>
+<button type="reset">RESET SYSTEM</button>
+
+<script src="./scripts/launch.js"></script>
+</body>
+</html>
